@@ -1,0 +1,17 @@
+{
+  "name": "react-to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "html-webpack-plugin": "^2.10.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
