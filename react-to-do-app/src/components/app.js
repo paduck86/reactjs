@@ -1,6 +1,10 @@
 import React from 'react';
+import { bindActionCreators } from 'redux';
 import CreateTodo from './create-todo';
 import TodosList from './todos-list';
+import TodoStore from '../store/todoStore';
+
+var actions = bindActionCreators(TodoActions, todoStore.dispatch); /* ? */
 
 const todos = [
     {
